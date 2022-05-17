@@ -13,7 +13,7 @@ vnc2flv localhost port
 ```sh
 
 docker build -t vn2flv-rec-image .
-docker run  --mount type=bind,source="$(pwd)",target=/mnt/  vn2flv-rec-image
+docker run  --mount type=bind,source="$(pwd)"/vnc2flv_rec,target=/mnt/  vn2flv-rec-image
 ```
 
 ## License
