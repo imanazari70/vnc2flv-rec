@@ -5,7 +5,7 @@ This is a Python3 wrapper for flvrec.py tool of vnc2flv package that compatible 
 ```sh
 pip install vnc2flv-rec
 
-vnc2flv localhost port
+vnc2flv-rec localhost port
 ```
 
 ## Create binary
