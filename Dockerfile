@@ -13,9 +13,3 @@ WORKDIR "/mnt"
 
 ENTRYPOINT ["pyinstaller", "--onefile", "/usr/local/bin/flvrec.py", "--distpath", "./lib"]
 
-
-
-
-
-
-

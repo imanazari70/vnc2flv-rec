@@ -3,7 +3,6 @@
 import os
 import sys
 
-
 BASE_DIR = os.path.dirname(__file__)
 FLVREC_EXECUTABLE_SYSTEM = os.path.join(sys.prefix, 'lib/flvrec')
 FLVREC_EXECUTABLE_LOCAL = os.path.join(BASE_DIR, 'lib/flvrec')
